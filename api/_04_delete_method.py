@@ -23,6 +23,7 @@ def book_delete(book_id):
     return json_response(status=204)
 
 
+
 @app.errorhandler(404)
 def not_found(e):
     return '', 404
